@@ -23,36 +23,53 @@
 
     <header>
       <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-bg">
-        <a id="navbarhome" href="index.html">Benjyros</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="navitem" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="navitem" href="la-7710.html">LA-7710</a>
-            </li>
-          </ul>
+      <nav class="navbar-expand-md navbar-dark fixed-top nav">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li>
+                <a id="navhome" href="index.html">jQuery</a>
+              </li>
+              <li>
+                <a href="index.html">Start<span class="sr-only">(current)</span></a>
+              </li>
+              <li>
+                <a href="la-7710.html">Schritt1</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
 
     <!-- Begin page content -->
     <main>
-      <div class="standardContent" id="content">
-        <button id="here">Be here</button>
-        <button id="gone">Be gone</button>
-        <p>Für die Navbar wurde eine Function erstellt, sodass beim darüberhovern, dieser Link fett wird.</p>
+      <div class="standardContent container">
+        <div>
+          <h1>Meine jQuery Webseite mit Bootstrap</h1>
+        </div>
+        <div>
+          <hr>
+        </div>
+        <div>
+          <h3><a id="link" href="index.html">Startseite</a></h3>
+        </div>
+        <div>
+          <p>Meine Beispiele</p>
+        </div>   
+        <div id="content">
+          <button id="here">Be here</button>
+          <button id="gone">Be gone</button>
+        </div>     
       </div>
     </main>
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">&#169 by Benjamin Peterhans 2022</span>
+        <span class="text-muted">&#169 BBBaden Sascha Fiechter 2016</span>
       </div>
     </footer>
 
@@ -60,9 +77,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../jQuery/jquery.min.js"></script>
-    <script src="../Scripts/script.js"></script>
     <script src="../Scripts/la-7710.js"></script>
-    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="../jQuery/jquery.min.js"><\/script>')</script>
     <script src="../assets/js/vendor/popper.min.js"></script>
     <script src="../Scripts/bootstrap/bootstrap.min.js"></script>
   </body>

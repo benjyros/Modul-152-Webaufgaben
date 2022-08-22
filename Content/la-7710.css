@@ -1,3 +1,12 @@
-#content{
+main div div {
+    padding: 7px;
+}
+
+#content {
     text-align: center;
+}
+
+#link, #link:hover, #link:active {
+    text-decoration: none;
+    color: black;
 }

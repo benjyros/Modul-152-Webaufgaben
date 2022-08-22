@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    $("tbody tr").css("background", "#fafad2");
+    $("tbody tr").addClass("colored");
 
-    $("tbody tr td").hover(function(){
-        $(this).css("background", "#1e90ff");
+    $("tbody tr").hover(function(){
+        $(this).addClass("mouseon");
     }, function(){
-        $(this).css("background", "#fafad2");
+        $(this).removeClass("mouseon");
     });
 });

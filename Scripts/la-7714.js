@@ -1,12 +1,11 @@
 $(document).ready(function(){
     // CSS
-    $("#content").css("margin", "0 auto");
-    $("#content").css("width", "55%");
-    $("main").css("margin-left", "20px");
-    $("#headerarea").css("margin", "20px");
+    $("#headerarea").css("padding", "20px");
+    $("#mainarea").css("padding-left", "20px");
     $("#mainarea").css("color", "#0769AA");
     $("#mainarea").css("font-size", "15px");
     $("#footerarea").css("font-weight", "bold");
+    $("#footerarea").css("padding-left", "20px");
 
     // Function
     $("#headerarea img").click(function(){
@@ -20,4 +19,4 @@ $(document).ready(function(){
         $("#mainarea").css("font-size", "15px");
         document.getElementById("footerelement").innerHTML = "Klicke auf das Logo";
     });
-})
+});
