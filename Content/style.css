@@ -1,0 +1,19 @@
+.nav-bg{
+    background-color: #f5f5f5;
+}
+
+#navbarhome{
+    font-size: 20px;
+}
+
+.navitem, #navbarhome, .navitem:hover, .navitem:active{
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    display: inline-block;
+    text-align: center;
+}
+
+.standardContent{
+    padding-top: 10%;
+}
