@@ -1,5 +1,6 @@
 $(document).ready(function () {
     var rainChars = '1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    var char = rainChars.charAt(Math.floor(Math.random() * rainChars.length));
 
     var paddingSlide = 0;
     var paddingChar = 0;
@@ -15,14 +16,14 @@ $(document).ready(function () {
     };
 
     function rndChar(){
-        var char = rainChars.charAt(Math.floor(Math.random() * rainChars.length));
-        $("#rndChar").offset({top: paddingChar});
+        document.getElementById("rndchar").innerHTML = char;
+        $("#rndchar").offset({top: paddingChar});
 
         paddingChar++;
-
+        
         if(paddingChar > 250){
             paddingChar = 0;
-            document.getElementById("rndChar").innerHTML = char;
+            char = rainChars.charAt(Math.floor(Math.random() * rainChars.length));
         }
     };
 
