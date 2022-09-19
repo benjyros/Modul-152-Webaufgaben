@@ -1,0 +1,34 @@
+#background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#content {
+    position: sticky;
+    margin-top: 10%;
+    color: white;
+}
+
+hr {
+    background-color: white;
+}
+
+.videos {
+    margin: 5%;
+}
+
+#matrix {
+    width: 500px;
+}
+
+#ytvideo {
+    width: 500px;
+}
+
+.listSettings{
+    list-style-type: circle;
+    display: inline-block;
+}
